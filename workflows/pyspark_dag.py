@@ -10,7 +10,7 @@ from airflow.providers.google.cloud.operators.dataproc import (
 )
 
 # define the variables
-PROJECT_ID = "avd-databricks-demo"
+PROJECT_ID = "retailer-final-project-gcp"
 REGION = "us-east1"
 CLUSTER_NAME = "my-demo-cluster"
 COMPOSER_BUCKET = "us-central1-demo-instance-968eb987-bucket"
@@ -38,7 +38,7 @@ PYSPARK_JOB_3 = {
 
 
 ARGS = {
-    "owner": "SHAIK SAIDHUL",
+    "owner": "LIZALIN SAHOO",
     "start_date": None,
     "depends_on_past": False,
     "email_on_failure": False,
